@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="FitText.widget.FitText" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>FitText</name>
+    <description>Scalable headlines using jQuery</description>
+
+    <icon />
+
+    <properties>
+        <property key="compressor" type="integer" required="true" defaultValue="1">
+            <caption>Compressor value</caption>
+            <category>Appearance</category>
+            <description>Tweak the compressor if resizing is done poorly. Higher values means more 'aggresive' resizing</description>
+        </property>
+        <property key="minFontSize" type="integer" required="true" defaultValue="20">
+            <caption>Minimum font size</caption>
+            <category>Appearance</category>
+            <description>Minimum size the resized font should have.</description>
+        </property>
+        <property key="maxFontSize" type="integer" required="true" defaultValue="40">
+            <caption>Maximum font size</caption>
+            <category>Appearance</category>
+            <description>Maximum size the resized font should have.</description>
+        </property>
+        <property key="fitTextClass" type="string" required="true" defaultValue="">
+            <caption>Class element</caption>
+            <category>Appearance</category>
+            <description>The class of the element that should be resized (without the '.')</description>
+        </property>
+    </properties>
+</widget>
